@@ -1,0 +1,8 @@
+import Background from "./wooden-texture.jpg";
+
+.game_wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: url({Background}) no-repeat;
+
+}
