@@ -1,0 +1,27 @@
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  &:before {
+    content: "Rock ";
+    color: #ef5480;
+  }
+  &:after {
+    content: " Scissors";
+    color: #74dae2;
+  }
+}
+
