@@ -1,0 +1,48 @@
+.tablescore {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  padding: 10px 50px;
+  background-color: rgba(112, 128, 144, 0.4);
+}
+
+.tablescore__title {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 auto 10px auto;
+}
+
+.tablescore__score {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-value {
+  display: inline-block;
+}
+
+.score__divider {
+  margin: 0 20px;
+}
+
+#player-score {
+  color: yellow;
+}
+
+.score__party {
+  font-size: 1.5rem;
+}
+
+#bot-score {
+  color: red;
+}
+
+/*# sourceMappingURL=tablescore.css.map */
